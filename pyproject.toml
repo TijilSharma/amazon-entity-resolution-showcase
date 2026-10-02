@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools==78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amazon-business-er"
+version = "0.1.0"
+description = "Portfolio showcase of a large-scale multilingual business entity resolution pipeline"
+requires-python = ">=3.11,<3.12"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true

@@ -1,0 +1,9 @@
+{
+  "seed": 20260925,
+  "iterations": 1200,
+  "depth": 8,
+  "learning_rate": 0.05,
+  "l2_leaf_reg": 5.0,
+  "early_stopping_rounds": 100,
+  "thread_count": 4
+}
